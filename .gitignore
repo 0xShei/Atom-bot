@@ -9,7 +9,7 @@ venv/
 Lib/
 Include/
 Scripts/
-pyenv.cfg
+pyvenv.cfg
 
 # .env file containing sensitive information (like bot token)
 .env
@@ -50,3 +50,6 @@ coverage.xml
 # Other potential sensitive files or directories
 *.bak
 *.swp
+
+# Miscellaneous
+watchdog
