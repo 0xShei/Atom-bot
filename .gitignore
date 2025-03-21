@@ -1,0 +1,52 @@
+# Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Virtual environments
+venv/
+Lib/
+Include/
+Scripts/
+pyenv.cfg
+
+# .env file containing sensitive information (like bot token)
+.env
+
+# SQLite or database files (adjust if using other DBs like PostgreSQL or MongoDB)
+*.db
+db/
+
+# Logs
+*.log
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Python egg files
+*.egg
+*.egg-info/
+
+# Build and distribution files
+build/
+dist/
+*.tar.gz
+*.zip
+
+# Test, coverage, and other temporary files
+.coverage
+nosetests.xml
+coverage.xml
+*.cover
+*.hypothesis/
+.pytest_cache/
+
+# Other potential sensitive files or directories
+*.bak
+*.swp
